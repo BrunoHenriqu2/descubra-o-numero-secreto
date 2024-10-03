@@ -95,3 +95,27 @@ footer {
     border-right: none;
     border-color: #ffffff;
 }
+
+@media (max-width: 768px) {
+
+    body {
+        gap: 1.1rem;
+    }
+
+    h1 {
+        font-size: 25pt;
+    }
+
+    section {
+        width: 90%;
+        height: 35rem;
+    }
+
+    #main {
+        font-size: 17pt;
+    }
+
+    #result {
+        text-align: center;
+    }
+}
