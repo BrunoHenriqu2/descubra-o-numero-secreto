@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-family: "Afacad Flux";
+}
+
+h1 {
+    letter-spacing: .2rem;
+    text-align: center;
+    font-size: 30pt;
+}
+
+h1 span {
+    color: #6eecf5;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    height: 40rem;
+    border-style: dashed;
+    border-radius: .5rem;
+    border-width: .3rem;
+    border-color: #6eecf5;
+    background-color: #000000;
+}
+
+#main {
+    font-size: 18pt;
+    width: 90%;
+    color: #ffffff;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+#error {
+    text-align: center;
+    border: solid;
+    border-color: #ff0000;
+}
+
+#start-button {
+    border-style: solid;
+    color: #000000;
+    border-radius: .1rem;
+    background-color: #eeeeee;
+    border-color: #6eecf5;
+    border-width: .15rem;
+    height: 2.5rem;
+}
+
+.input-number {
+    visibility: hidden;
+    border-radius: .1rem;
+    font-size: 11pt;
+    color: #000000;
+    background-color: #ffffff;
+    border-style: none;
+    height: 2.5rem;
+}
+
+a {
+    color: #6eecf5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: #000000;
+    border-style: solid;
+    border-width: .15rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-color: #ffffff;
+}
